@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="registration.html">Registration Form</a></li>
+            <li><a href="records.html">Student Records</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="page-title">Student Records</h1>
+        <div class="form-group">
+            <label for="record-search">Search records</label>
+            <input id="record-search" type="search">
+        </div>
+        <div class="table-scroll" role="region" aria-label="Student records table" tabindex="0">
+        <table class="data-table">
+            <caption>List of Student Records</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Student ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Program</th>
+                    <th scope="col">Year Level</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody id="records-body">
+                <tr>
+                    <td>001</td>
+                    <td>John Doe</td>
+                    <td>BS Information Technology</td>
+                    <td>1</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Jane Smith</td>
+                    <td>BS Computer Science</td>
+                    <td>2</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Emily Johnson</td>
+                    <td>BS Information Technology</td>
+                    <td>3</td>
+                    <td>Inactive</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Michael Brown</td>
+                    <td>BS Computer Science</td>
+                    <td>1</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Sarah Davis</td>
+                    <td>BS Information Technology</td>
+                    <td>2</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>David Wilson</td>
+                    <td>BS Computer Science</td>
+                    <td>3</td>
+                    <td>Inactive</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </main>
+</body>
+</html>

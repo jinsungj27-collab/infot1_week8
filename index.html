@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="page-title">Student Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="registration.html">Registration Form</a></li>
+            <li><a href="records.html">Student Records</a></li>
+        </ul>
+    </nav>
+    <main class="page-layout">
+        <section class="primary-content">
+            <h1>Welcome to the Student Portal</h1>
+            <p>The Student Portal is the central hub for student enrollment and academic record management at the University of Antique, College of Computing and Information Sciences. Through this portal, new and returning students can complete their registration by submitting personal details, selecting a degree program, and indicating their current year level.</p>
+            <p>Students and faculty can also access the Student Records page to view a summary of all registered students, including their student ID, full name, enrolled program, year level, and current enrollment status. This system is designed to streamline the registration process and keep academic records organized and easily accessible.</p>
+            <button id="help-button" type="button" aria-expanded="false" aria-controls="help-panel">Show Help</button>
+            <div id="help-panel">
+                <p>Use the top navigation links to open the Registration Form or view Student Records.</p>
+                <p>On the Registration Form page, enter your details, select a program, and check the confirmation box before submitting. On the Student Records page, use the search field to filter student rows by name, ID, program, year level, or status.</p>
+            </div>
+        </section>
+        <aside class="secondary-content">
+            <h2>Quick Information</h2>
+            <div class="info-cards">
+                <article class="info-card">
+                    <h3>Registration</h3>
+                    <p>Complete your enrollment by filling out the student registration form with your personal and academic details.</p>
+                    <a href="registration.html">Go to Registration</a>
+                </article>
+                <article class="info-card">
+                    <h3>Student Records</h3>
+                    <p>View the list of all registered students along with their program, year level, and enrollment status.</p>
+                    <a href="records.html">View Records</a>
+                </article>
+                <article class="info-card">
+                    <h3>Contact the Office</h3>
+                    <p>For enrollment concerns or questions about your records, visit the College of Computing and Information Sciences office during regular hours.</p>
+                    <a href="mailto:ccis@antiquespride.edu.ph">Email the Office</a>
+                </article>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>University of Antique | College of Computing and Information Sciences</p>
+    </footer>
+</body>
+</html>
